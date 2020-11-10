@@ -1,3 +1,5 @@
+//How to delete some duplicates from an array
+
 const name = ['Munna', 'Munna', 'Rahmat', 'Rabik', 'Rahmat', 'Rakib', 'Emdad', 'Rabik']
 const duplicate = [];
 for (let i = 0; i < name.length; i++) {
@@ -6,6 +8,6 @@ for (let i = 0; i < name.length; i++) {
     if (index === -1) {
         duplicate.push(element);
     } 
-    
 }
 console.log(duplicate);
+//expected output: [ 'Munna', 'Rahmat', 'Rabik', 'Rakib', 'Emdad' ]
