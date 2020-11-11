@@ -5,3 +5,12 @@
 
 #### arrayMax
 <p>arrayMax lets you easily find the largest array in any of your arrays.</p>
+
+#### arraySum
+<p>You can find the sum of all the numbers in an array.</p>
+
+#### duplicate
+<p>An easy solution is to delete a number or a string twice or more if it is in an array</p>
+
+#### swap
+<p>You can do this if you want to swap the value of one var to another var.</p>
