@@ -1,11 +1,10 @@
-
 function join(arr, sp = ',') {
     let newString = '';
-    for (let i = 0, length = arr.length; i < length; i++) {
-        if ((i+1) === arr.length) newString = newString + arr[i] + sp;
-        else newString = newString + arr[i];
+    let i = -1;
+    while(++i < arr.length) {
+        newString += `${arr[i]} ${( i + 1 ) === arr.length ? '' : sp}`
     }
     return newString;
 }
 
-console.log(join([1,2,3,4,5,6], ' '))
+console.log(join([1,2,3,4,5,6,[78]], ' '))
